@@ -1,0 +1,15 @@
+{
+    "name": "super/bitrix-result-modifier",
+    "type": "library",
+    "license": "gpt",
+    "php": ">=7.1",
+    "autoload": {
+        "psr-4": {
+            "Super\\BitrixResultModifier\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
