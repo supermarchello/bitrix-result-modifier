@@ -1,6 +1,6 @@
 <?php
 
-namespace Super\BitrixResultModifier;
+namespace Supermarchello\BitrixResultModifier;
 
 /**
  *  Тестовый класс

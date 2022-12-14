@@ -1,6 +1,6 @@
 <?php
 
-namespace Super\BitrixResultModifier;
+namespace Supermarchello\BitrixResultModifier;
 
 use PHPUnit\Framework\TestCase;
 

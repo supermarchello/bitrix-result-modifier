@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Super\BitrixResultModifier;
+namespace Supermarchello\BitrixResultModifier;
 
 final class Modifier
 {

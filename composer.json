@@ -1,5 +1,5 @@
 {
-    "name": "super/bitrix-result-modifier",
+    "name": "supermarchello/bitrix-result-modifier",
     "type": "library",
     "license": "MIT",
     "php": ">=7.1",
@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Super\\BitrixResultModifier\\": "src/"
+            "Supermarchello\\BitrixResultModifier\\": "src/"
         }
     },
     "minimum-stability": "stable",
