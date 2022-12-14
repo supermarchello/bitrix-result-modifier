@@ -1,8 +1,14 @@
 {
     "name": "super/bitrix-result-modifier",
     "type": "library",
-    "license": "gpt",
+    "license": "MIT",
     "php": ">=7.1",
+    "authors": [
+        {
+            "name": "Alexander Marchello",
+            "email": "supermarchellos@gmail.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Super\\BitrixResultModifier\\": "src/"
