@@ -1,5 +1,6 @@
 {
     "name": "supermarchello/bitrix-result-modifier",
+    "description" : "About\nБиблиотека позволяет сделать код в файлах result_modifier.php более чистым, предоставляя интерфейс для классов модификаторов и применяя модификаторы к результирующему массиву",
     "type": "library",
     "license": "MIT",
     "php": ">=7.1",
