@@ -19,8 +19,8 @@ composer require supermarchello/bitrix-result-modifier
 
 <?php
 
-use Super\BitrixResultModifier\Modifier;
-use Super\BitrixResultModifier\TestModifier;
+use Supermarchello\BitrixResultModifier\Modifier;
+use Supermarchello\BitrixResultModifier\TestModifier;
 
 Modifier::create()
     ->addModifier(new TestModifier())
