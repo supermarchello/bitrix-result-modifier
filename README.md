@@ -6,7 +6,7 @@
 Use [composer](https://getcomposer.org) to install bitrix-result-modifier into your project:
 
 ```sh
-composer require phpoffice/phpspreadsheet
+composer require super/bitrix-result-modifier
 ```
 
 
