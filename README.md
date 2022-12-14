@@ -9,6 +9,9 @@ Use [composer](https://getcomposer.org) to install bitrix-result-modifier into y
 composer require super/bitrix-result-modifier
 ```
 
+# Использование #
+
+Разработчик должен имплементировать интерфейс ModifierInterface, можно добавлять несколько модификаторов через флюент интерфейс метода addModifier
 
 # Пример использользования #
 
