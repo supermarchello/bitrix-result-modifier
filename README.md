@@ -6,7 +6,7 @@
 Use [composer](https://getcomposer.org) to install bitrix-result-modifier into your project:
 
 ```sh
-composer require super/bitrix-result-modifier
+composer require supermarchello/bitrix-result-modifier
 ```
 
 # Использование #
@@ -19,8 +19,8 @@ composer require super/bitrix-result-modifier
 
 <?php
 
-use Super\BitrixResultModifier\Modifier;
-use Super\BitrixResultModifier\TestModifier;
+use Supermarchello\BitrixResultModifier\Modifier;
+use Supermarchello\BitrixResultModifier\TestModifier;
 
 Modifier::create()
     ->addModifier(new TestModifier())
