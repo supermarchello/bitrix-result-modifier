@@ -1,0 +1,3 @@
+/test export-ignore
+/phpunit.xml export-ignore
+/src/TestModifier.php export-ignore
