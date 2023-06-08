@@ -25,7 +25,7 @@ class ModifierTest extends TestCase
     public function testApplyModifications()
     {
         $testResult = ['test' => 1];
-        Modifier::create()->addModifier(new TestModifier())->applyModifications($testResult);
+        Modifier::create()->addModifier(new ExampleModifier())->applyModifications($testResult);
         $this->assertEquals(['test' => 1, 'test2' => 2], $testResult);
     }
 }

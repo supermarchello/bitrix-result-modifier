@@ -21,7 +21,9 @@ final class Modifier
     public function applyModifications(array &$arResult): void
     {
         foreach ($this->modifiersPool as $modifier) {
-            $modifier->modify($arResult);
+            if ($modifier->verify($arResult)){
+                $modifier->modify($arResult);
+            }
         }
     }
 
